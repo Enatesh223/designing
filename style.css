@@ -1,0 +1,163 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #faf9f9;
+    padding: 5px;
+}
+nav img{
+    margin-right: 20px;
+    padding-left: 20px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+}
+ul li{
+    display: inline;
+    margin-right: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+.icons{
+    padding-right: 90px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(12, 12 ,12);
+}
+
+button i{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 53%;
+}
+
+.herosection{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url(heroimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.small-button{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 70px;
+    background-image: repeating-linear-gradient(to right,black,rgb(98,105,97));
+    color: white;
+    background-color: rgb(10,11,12);
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight:720;
+}
+
+.paragraphs{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    height: 110px;
+    justify-content: space-between;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.child-paragraph{
+    width: 300px;
+    height: 3500px;
+
+}
+
+.content{
+    background-color: rgb(247, 243, 243) ;
+    height: 500px;
+}
+
+.heading{
+    font-family: sans-serif;
+    padding-left: 80px;
+    background-color: lightgrey;
+    padding-top: 30px;
+}
+
+.parent-content{
+    display: flex;
+    justify-content:  space-between;
+    background-color: lightgrey;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    padding-top:10px;
+    
+}
+
+.child-content{
+    width: 300px;
+}
+
+.one{
+    text-align: left;
+}
+
+.two{
+    text-align: center;
+}
+
+.three{
+    text-align: right;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+ 
+.btn-hero,btn,one{
+    text-align: center;
+}
+
+.seven{
+    text-align: center;
+}
+.eight{
+    text-align: right;
+}
+
+
+.btn-hero-1,btn,two{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
